@@ -9,7 +9,7 @@ article {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    margin-top: -550px;
+    margin-top: -450px;
   }
   
   h1 {  
@@ -18,7 +18,7 @@ article {
   }
   
   body {
-    background: rgb(255, 213, 189);
+    background: rgb(252, 220, 255);
     
     min-block-size: 100%;
     min-inline-size: 100%;
@@ -34,3 +34,5 @@ article {
     block-size: 100%;
     inline-size: 100%;
   }
+
+  
