@@ -7,3 +7,15 @@ function RedToVizit() {
 function RedToStart() {
     window.location.href="../c-/startpage.html";  
 }
+
+function RedToChoose() {
+    window.location.href="../c-/choosepage.html";  
+}
+
+function RedToConInf() {
+    window.location.href="../c-/ConInf.html";  
+}
+
+function RedToPrLang() {
+    window.location.href="../c-/PrLang.html";  
+}
