@@ -1,3 +1,5 @@
+This is start page: https://kostjakotovich.github.io/c-/
+
 # c-
 Vizītkarte
 Projekts: WEB saite
