@@ -35,7 +35,7 @@ document.getElementById('buttonREG').addEventListener('click', () => {
     font: inherit;
     padding: 0.1em 0.3em;"></p>
     <p><button class="button" id="Registracija" onclick="registracija()" style="font-size: 40px;margin-top: 0%;height: 73px;width: 500px;">Reģistrācija</button></p>
-    <p><a href="login.html"><button class="atpakaļ" style="background-color: initial;
+    <p><a href="index.html"><button class="atpakaļ" style="background-color: initial;
     background-image: linear-gradient(#8614f8 0, #760be0 100%);
     border-radius: 5px;
     border-style: none;
@@ -77,7 +77,7 @@ document.getElementById('buttonLOGIN').addEventListener('click', () => {
     font: inherit;
     padding: 0.1em 0.3em;"></p>
     <p><button class="button" id="Login" onclick="Login()" style="font-size: 40px;margin-top: 0%;height: 73px;width: 500px;">Login</button></p>
-    <p><a href="login.html"><button class="atpakaļ" style="background-color: initial;
+    <p><a href="index.html"><button class="atpakaļ" style="background-color: initial;
     background-image: linear-gradient(#8614f8 0, #760be0 100%);
     border-radius: 5px;
     border-style: none;
@@ -155,7 +155,7 @@ function registracija(){
 
         render();
 
-        window.location = "login.html";
+        window.location = "index.html";
     }
 
     username.value = "";
