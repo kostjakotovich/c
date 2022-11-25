@@ -1,3 +1,4 @@
+// funkcijas prieks redirect
 console.log("JS is working");
 
 function RedToVizit() {
@@ -18,4 +19,8 @@ function RedToConInf() {
 
 function RedToPrLang() {
     window.location.href="../c-/PrLang.html";  
+}
+
+function RedToPlans() {
+    window.location.href="../c-/plans.html";  
 }

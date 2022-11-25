@@ -1,3 +1,4 @@
+// funkcija prieks logina un registracijas
 StorageUser = window.localStorage;
 
 let user_data = [];

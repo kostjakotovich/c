@@ -77,6 +77,7 @@ a:hover::after {
 
 
 #info {
+  
   border-radius: 30px;
   display: flex;
   justify-content: center;
@@ -86,7 +87,7 @@ a:hover::after {
   height: 600px;
   width: 1400px;
   margin-top: -650px;
-  margin-left: 80px;
+  margin-left: 50%;
 }
 
 /* CSS button */

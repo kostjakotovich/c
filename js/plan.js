@@ -1,3 +1,9 @@
+// funkcija prieks redirect
+function RedToChoose() {
+    window.location.href="../c-/choosepage.html";  
+}
+
+// funkcija prieks kartinu pievienosanas
 let projekti = []
 
 window.addEventListener('load', () => {
