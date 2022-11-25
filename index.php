@@ -12,6 +12,18 @@
     <script src="js/login.js" defer></script>
 </head>
 <body>
+    <main>
+        <?php 
+            echo 'my first php'; 
+
+            $myFirstVariable = 12345;
+
+            echo $myFirstVariable;
+
+            
+        ?>
+
+    </main>
     <div id="login_div">
         
         <h1 id="sing_in" style="font-size: 50px;">Sign in</h1>
