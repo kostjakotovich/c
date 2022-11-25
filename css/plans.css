@@ -21,7 +21,7 @@ h1 {
 }
 
 body {
-  background: #c7b39b url(https://media.discordapp.net/attachments/1031652490162229339/1031652580377497730/2nd_page.png?width=1609&height=905)
+  background: #000000 url(https://media.discordapp.net/attachments/1031652490162229339/1031652580377497730/2nd_page.png?width=1609&height=905)
   center 
   no-repeat;
   background-size: 100%;
@@ -72,10 +72,11 @@ p {
     border: 5px solid black;
     border-radius: 10px;
     padding: 10px;
-    height: 50px;
-    width: 400px;
-    margin: 15px;
-    background-color: rgba(189, 154, 255, 0.555);
+    height: 100px;
+    width: 600px;
+    margin-left: 5%;
+    margin-top: 10%;
+    background-color: #e375ff8e;
     word-spacing: -2px;
 }
 
@@ -86,29 +87,81 @@ p {
 }
 
 .del{
-    position: relative;
-  background-color: initial;
-  background-image: linear-gradient(#7700ff 0, #b66dff 100%);
-  border-radius: 5px;
-  border-style: none;
-  box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Inter, sans-serif;
-  font-size: 50px;
-  font-weight: 500;
-  height: 80px;
-  width: 400px;
-  line-height: 60px;
-  outline: 0;
-  text-align: center;
-  transition: all .3s cubic-bezier(.05, .03, .35, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: bottom;
+    background-color: initial;
+        background-image: linear-gradient(#8614f8 0, #760be0 100%);
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        height: 60px;
+        line-height: 60px;
 
-  -webkit-text-fill-color: rgb(255, 255, 255);
-  font-family: Georgia, serif;
+
+        outline: 0;
+        text-align: center;
+        transition: all .3s cubic-bezier(.05, .03, .35, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: bottom;
+        width: 190px;
+  }
+  
+  .del:hover {
+    opacity: .7;
+  }
+  
+@media screen and (max-width: 1000px) {
+    .del {
+      font-size: 14px;
+      height: 55px;
+      line-height: 55px;
+      width: 350px;
+    }
 }
+
+
+#pievienotKartinu {
+
+        background-color: initial;
+        background-image: linear-gradient(#8614f8 0, #760be0 100%);
+        border-radius: 5px;
+        border-style: none;
+        box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 5%;
+        margin-left: 40%;
+        outline: 0;
+        text-align: center;
+        transition: all .3s cubic-bezier(.05, .03, .35, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: bottom;
+        width: 190px;
+      }
+      
+      .pievienotKartinu:hover {
+        opacity: .7;
+      }
+      
+      @media screen and (max-width: 1000px) {
+        .pievienotKartinu {
+          font-size: 14px;
+          height: 55px;
+          line-height: 55px;
+          width: 150px;
+        }
+      }
