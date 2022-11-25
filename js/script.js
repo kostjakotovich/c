@@ -24,3 +24,7 @@ function RedToPrLang() {
 function RedToPlans() {
     window.location.href="../c-/plans.html";  
 }
+
+function RedToComment() {
+    window.location.href="../c-/comment.html";  
+}

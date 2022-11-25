@@ -15,7 +15,7 @@ article {
 h1 {  
   opacity: 80%;
   margin-left: 28%;
-  margin-top: -1%;
+  margin-top: -3%;
   font-family: Georgia, serif;
   font-size: 10vmin;
   line-height: 1.1;
@@ -64,7 +64,7 @@ p {
       color: white;
       padding: 10px;
       border-radius: 4px;
-      box-shadow: 2px 2px 20px 23px #7fdfec;
+      box-shadow: 2px 2px 20px 23px #00000073;
 }
 
 .project {
@@ -76,7 +76,7 @@ p {
     height: 100px;
     width: 600px;
     margin-left: 5%;
-    margin-top: 10%;
+    margin-top: 13%;
     background-color: #e375ff8e;
     word-spacing: -2px;
 }
@@ -90,7 +90,7 @@ p {
 /* CSS buttons */
 .del{
     background-color: initial;
-        background-image: linear-gradient(#8614f8 0, #760be0 100%);
+        background-image: linear-gradient(#ff57577c 0, #e00b0b8f 100%);
         border-radius: 5px;
         border-style: none;
         box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
@@ -101,6 +101,7 @@ p {
         font-size: 16px;
         font-weight: 500;
         height: 60px;
+    
         line-height: 60px;
 
 
