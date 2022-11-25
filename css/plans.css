@@ -52,6 +52,7 @@ p {
 }
 /* Priekš div kartītei */
 #planuIevade {
+    
     align-items: center;
     top: 15%;
     left: 30%;
@@ -60,7 +61,7 @@ p {
     width: 800px;
     height: 200px;
     font-family: cursive, sans-serif;
-      background-color: #00e1ff7e;
+      background-color: #ffffff7e;
       color: white;
       padding: 10px;
       border-radius: 4px;
@@ -77,7 +78,7 @@ p {
     width: 600px;
     margin-left: 5%;
     margin-top: 13%;
-    background-color: #e375ff8e;
+    background-color: #ffffff9f;
     word-spacing: -2px;
 }
 
@@ -90,7 +91,7 @@ p {
 /* CSS buttons */
 .del{
     background-color: initial;
-        background-image: linear-gradient(#ff57577c 0, #e00b0b8f 100%);
+        background-image: linear-gradient(#e14aff7c 0, #e14aff7c 0);
         border-radius: 5px;
         border-style: none;
         box-shadow: rgba(245, 244, 247, .25) 0 1px 1px inset;
@@ -130,7 +131,7 @@ p {
 
 
 #pievienotKartinu {
-
+        
         background-color: initial;
         background-image: linear-gradient(#8614f8 0, #760be0 100%);
         border-radius: 5px;
