@@ -1,0 +1,11 @@
+{
+    "name": "01dpkkotovics/c",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
