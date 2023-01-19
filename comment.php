@@ -14,10 +14,10 @@ if ($_Server['REQUEST_METHOD'] === 'POST') {
     $name = post_data('name');
     $email = post_data('email');
     $comment = post_data('comment');
-    echo  '<pre>';
+    ///echo  '<pre>';
 
-    var_dump($name, $email, $comment) 
-    echo '</pre>'
+    ///var_dump($name, $email, $comment) 
+    ///echo '</pre>'
 
     if (!$name){
         $errors['name'] = REQUIRED_FIELD_ERROR;
@@ -34,6 +34,10 @@ if ($_Server['REQUEST_METHOD'] === 'POST') {
         $errors['comment'] = REQUIRED_FIELD_ERROR;
     } else if (strlen($comment) > 400){
         $errors['comment'] = 'Max 400 char.';
+
+    if (empty($errors)){
+        echo "Everything is good".'<br>';
+    }
 
 Function post_date($Field)
 {
